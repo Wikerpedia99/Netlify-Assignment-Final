@@ -1,13 +1,16 @@
 body { 
 background-color: purple;
 font-family: papyrus;
+color: gold;
 }
 
 p {
 	text-align: left;
 font-family: papyrus;
+color: gold;
 }
 
 ol {text-align: left;
 font-family: papyrus;
+color: gold;
 }
