@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wiker's Github cheat sheet</title>
+</head>
+<body>
+Open Terminal
+Use the cd command to change directories into your repo folder
+Turn this folder into a git repo
+Use the following command:
+git init
+You should see the message “Initialized empty Git repository”
+Then use git add
+git add README.md
+You can run git status to see added files
+Next you need to commit changes
+Commit early and commit often.
+git commit -am "first commit"
+Now we need to change to the main branch:
+git branch -M main
+We need to add the remote repo as the “origin” of this branch.
+Copy this line from GitHub: git remote add origin https://github.com/shermandy/test-repo.git
+Make sure you get the correct version directly from GitHub.
+Now you need to push your changes to GitHub. 
+git push origin main
+If there are no errors, load the repo in your browser and see if you see your code appears. 
+</body>
+</html>
