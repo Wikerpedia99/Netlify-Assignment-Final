@@ -1,12 +1,13 @@
 body { 
 background-color: purple;
+font-family: "Times New Roman", Times, serif;
 }
 
 p {
-	text-align: center;
+	text-align: left;
 
 }
 
-ol {text-align: center;
+ol {text-align: left;
 
 }
